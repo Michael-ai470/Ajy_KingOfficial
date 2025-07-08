@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://Ajy_KingOfficial.vercel.app/sitemap.xml

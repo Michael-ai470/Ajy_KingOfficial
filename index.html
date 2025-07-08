@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ajy_KingOfficial | Creative Web Developer</title>
+  <meta name="description" content="Ajy_KingOfficial is a creative web developer building stunning, fast, and user-friendly websites. Let’s build your next digital solution the right way.">
+  <meta name="keywords" content="Ajy_KingOfficial, web developer, portfolio website, creative developer, responsive websites, modern web design, front-end developer, UI/UX design, HTML CSS JavaScript, Vercel deployment, digital solutions, Nigeria web designer">
+  <meta name="author" content="Ajy_KingOfficial">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://Ajy_KingOfficial.vercel.app/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Ajy_KingOfficial | Creative Web Developer">
+  <meta property="og:description" content="Explore stunning, fast, and responsive websites built by Ajy_KingOfficial.">
+  <meta property="og:image" content="images/Ajy_Kinglogo.png"> <!-- Replace with actual image -->
+  <meta property="og:url" content="https://Ajy_KingOfficial.vercel.app/">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ajy_KingOfficial | Creative Web Developer">
+  <meta name="twitter:description" content="Explore stunning, fast, and responsive websites built by Ajy_KingOfficial.">
+  <meta name="twitter:image" content="https://ajykingofficial.vercel.app/twitter-image.jpg"> <!-- Replace with actual image -->
+
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.png" type="image/x-icon"> <!-- You can use .png or .svg if preferred -->
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png"> <!-- Optional for iOS devices -->
+
+  <link rel="stylesheet" href="Hero.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="main-header">
+    <div class="header-flex">
+      <div class="header-inner container">
+        <div class="logo-area">
+          <img src="images/Ajy_King logo2.png" alt="Ajy_KingOfficial Logo" class="logo-img">
+          <span class="brand-name">Ajy_KingOfficial</span>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <button class="light-mode-toggle" onclick="toggleLightMode()" title="Toggle Light/Dark Mode">
+            <svg class="light-mode-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFA500" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"/>
+              <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+            </svg>
+          </button>
+          <a href="#" onclick="openSidebarForm()" class="get-started-btn">Get Started</a>
+        </div>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section section" id="home">
+    <div class="container hero-flex">
+      <div class="hero-content">
+        <h2 class="hero-pretitle">LOOKING FOR A DEVELOPER TO BRING YOUR IDEAS TO LIFE?</h2>
+        <h1 class="hero-headline">
+          <span class="gradient-text">Clean Code.</span><br>
+          <span class="gradient-text" style="color:#FF6B6B;">Powerful Results.</span>
+        </h1>
+        <p class="hero-description">
+          I build modern, high-performing websites and web apps that help you stand out and grow your business. Let’s turn your vision into reality!
+        </p>
+        <a href="#" onclick="openSidebarForm()" class="hero-btn">Let's Talk</a>
+      </div>
+      <div class="hero-image">
+        <img src="images/Ajy_Kinglogo.png" alt="Ajy_KingOfficial Logo" class="hero-logo">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container about-flex">
+      <div class="about-text">
+        <h2>
+          <span class="about-hello">👋 Hi, I'm Ajibola Michael</span>
+          <span class="about-title gradient-text">Web Developer & Digital Problem Solver</span>
+        </h2>
+        <p class="about-animated">
+          <span class="about-highlight">I turn ideas into digital reality.</span>
+          <span class="about-typewriter"></span>
+        </p>
+        <p>
+          With a passion for <span class="about-keyword">clean code</span> and <span class="about-keyword">modern design</span>, I specialize in building high-performing websites and web apps that help brands stand out and grow.<br><br>
+          My approach blends <span class="about-keyword">creativity</span> with <span class="about-keyword">technical expertise</span>—from concept to launch, I handle every step, ensuring your project is smooth, fast, and future-proof.<br><br>
+          <span class="about-cta">Let’s build something remarkable together.</span>
+        </p>
+      </div>
+      <div class="about-badge">
+        <div class="about-badge-inner">
+          <span class="about-badge-title">3+ Years</span>
+          <span class="about-badge-desc">Experience</span>
+        </div>
+        <div class="about-badge-inner">about-typewriter
+          <span class="about-badge-title">30+</span>
+          <span class="about-badge-desc">Projects</span>
+        </div>
+        <div class="about-badge-inner">
+          <span class="about-badge-title">∞</span>
+          <span class="about-badge-desc">Ideas</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section section">
+    <div class="container services-container">
+      <h2 class="services-title">
+        I handle everything from <span class="highlight-service">design</span> to <span class="highlight-service">development</span> — without endless meetings.<br>
+        <span class="services-subtitle">Saving you time and headaches.</span>
+      </h2>
+      <div class="services-content">
+        <div class="services-description">
+          <p>
+            I’m a full-stack web developer who makes the web work for you. With years of experience working alongside founders, I know it’s not just about looks—it’s about results.<br><br>
+            From concept to launch, I handle every step of the process, ensuring it’s smooth and hassle-free, so you can focus on your business.
+          </p>
+        </div>
+        <div class="services-list">
+          <div class="service-block">
+            <span class="service-badge design">● DESIGN</span>
+            <ul>
+              <li>Landing Pages</li>
+              <li>Websites</li>
+              <li>Product Design</li>
+              <li>Branding</li>
+            </ul>
+          </div>
+          <div class="service-block">
+            <span class="service-badge development">● DEVELOPMENT</span>
+            <ul>
+              <li>React.js</li>
+              <li>Web Apps</li>
+              <li>APIs</li>
+              <li>Performance</li>
+            </ul>
+          </div>
+          <div class="service-block">
+            <span class="service-badge working">● WORKING WITH</span>
+            <ul>
+              <li>AI</li>
+              <li>Web3</li>
+              <li>Tech</li>
+              <li>Startups</li>
+            </ul>
+          </div>
+          <div class="service-block">
+            <span class="service-badge consulting">● CONSULTING</span>
+            <ul>
+              <li>Strategy</li>
+              <li>Maintenance</li>
+              <li>SEO</li>
+              <li>Support</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section section">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-bars">
+        <div class="skill-bar">
+          <span class="skill-label">HTML5</span>
+          <div class="bar-bg">
+            <div class="bar-fill" data-width="95%"></div>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <span class="skill-label">CSS3</span>
+          <div class="bar-bg">
+            <div class="bar-fill" data-width="90%"></div>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <span class="skill-label">JavaScript</span>
+          <div class="bar-bg">
+            <div class="bar-fill" data-width="88%"></div>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <span class="skill-label">React.js</span>
+          <div class="bar-bg">
+            <div class="bar-fill" data-width="85%"></div>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <span class="skill-label">Responsive Design</span>
+          <div class="bar-bg">
+            <div class="bar-fill" data-width="92%"></div>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <span class="skill-label">UI/UX Design</span>
+          <div class="bar-bg">
+            <div class="bar-fill" data-width="80%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section section">
+    <div class="container">
+      <h2 class="projects-title">Project Timeline</h2>
+      <p class="projects-subtitle">Explore my journey of building innovative web solutions over the years.</p>
+      <div class="timeline-filter">
+        <label for="year-slider">View projects up to year: <span id="selected-year">2025</span></label>
+        <input type="range" id="year-slider" min="2022" max="2025" value="2025" step="1">
+        <button id="reset-timeline">Show All Projects</button>
+      </div>
+      <div class="timeline">
+        <!-- Timeline items will be dynamically inserted here -->
+      </div>
+    </div>
+  </section>
+
+    <!-- Start Project Section -->
+  <section class="start-project-section section">
+    <div class="container start-project-center">
+      <h2 class="start-project-title">Ready to make your website stand out?</h2>
+      <button class="start-project-btn" onclick="openSidebarForm()">START A PROJECT</button>
+    </div>
+  </section>
+
+  <!-- Sidebar Form -->
+  <div id="sidebarOverlay" class="sidebar-overlay"></div>
+  <div id="sidebarForm" class="sidebar-form">
+    <div class="sidebar-form-content">
+      <button class="close-sidebar" onclick="closeSidebarForm()">&times;</button>
+      <h2>Request a quote</h2>
+      <form class="sidebar-contact-form" action="https://formspree.io/f/xyzjvklq" method="post">
+        <div class="sidebar-form-row">
+          <input type="text" name="name" placeholder="Your name" required>
+          <input type="email" name="email" placeholder="Your email" required>
+        </div>
+        <textarea name="project" placeholder="Tell me about your project..." required></textarea>
+        <div class="sidebar-tags">
+          <span>How can I help u?</span>
+          <div class="sidebar-tag-list">
+            <label><input type="checkbox" name="service" value="Design"> DESIGN</label>
+            <label><input type="checkbox" name="service" value="Development"> DEVELOPMENT</label>
+            <label><input type="checkbox" name="service" value="Branding"> BRANDING</label>
+            <label><input type="checkbox" name="service" value="Product Design"> PRODUCT DESIGN</label>
+          </div>
+        </div>
+        <select name="budget" required>
+          <option value="" name="budget">Your budget</option>
+          <option value="Below $100" name="budget">$0 - $100</option>
+          <option value="$100-$200" name="budget">$100 - $200</option>
+          <option value="$200+" name="budget">$200+</option>
+        </select>
+        <button type="submit" class="sidebar-send-btn">SEND MESSAGE</button>
+      </form>
+      <p class="sidebar-privacy">
+        By clicking the "Send message", you agree to our 
+        <a href="#" class="privacy-link" onclick="openPrivacyModal()">Privacy Policy</a>.
+      </p>
+    </div>
+  </div>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials-section section">
+    <!-- Soft background pattern -->
+    <div class="background-dots"></div>
+
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="testimonial-slider" onmouseenter="pauseSlider()" onmouseleave="resumeSlider()">
+        <div class="testimonial-track">
+          <blockquote>
+            <p>"Working with Ajibola was a fantastic experience. He really took the time to understand what I wanted and delivered beyond my expectations. The website looks clean, loads fast, and I’ve been getting great feedback ever since."</p>
+            <cite>– Mide_Shotzx</cite>
+          </blockquote>
+
+          <blockquote>
+            <p>"Ajibola made the whole process feel so easy. I had no idea where to start, but he walked me through everything step by step. His patience and attention to detail were top-notch."</p>
+            <cite>– Campus of Champions</cite>
+          </blockquote>
+
+          <blockquote>
+            <p>"I’ve worked with a few developers before, but Ajibola stands out. He delivered on time, kept me updated, and the final product was even better than I imagined. I’ll definitely work with him again."</p>
+            <cite>– BrandCraft Studio</cite>
+          </blockquote>
+
+          <blockquote>
+            <p>"What I loved most was his clear communication. Even when things got a bit technical, he explained them in simple terms I could understand. My website turned out amazing!"</p>
+            <cite>– TechSpring Agency</cite>
+          </blockquote>
+        </div>
+        <!-- Slide Indicators -->
+        <div class="slider-indicators">
+          <span class="indicator active" onclick="goToSlide(0)"></span>
+          <span class="indicator" onclick="goToSlide(1)"></span>
+          <span class="indicator" onclick="goToSlide(2)"></span>
+          <span class="indicator" onclick="goToSlide(3)"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section section">
+    <div class="container"></div>
+      <h2>Contact Me</h2>
+      <p>Can't find what you want? Describe it and let  me know!</p>
+      <form action="https://formspree.io/f/xyzjvklq" method="post" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+
+
+   <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <p>&copy; 2025 Ajy_KingOfficial. All rights reserved.</p>
+        <a href="#" class="footer-privacy" onclick="openPrivacyModal()">Privacy Policy</a>
+      </div>
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/ajy_kingofficial" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="https://x.com/AjibolaMik658" target="_blank" class="social-icon"><i class="fab fa-x"></i></a>
+        <a href="https://github.com/Michael-ai470" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ajibola-michael-567049310" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+
+    <!-- Privacy Policy Modal -->
+  <div id="privacyModal" class="privacy-modal">
+    <div class="privacy-modal-content">
+      <span class="close-privacy-btn" onclick="closePrivacyModal()">×</span>
+      <h2>Privacy Policy</h2>
+      <p>At Ajy_KingOfficial, your privacy is very important to us. This Privacy Policy explains how we collect, use, and protect your personal information when you use our website.</p>
+
+      <h3>What We Collect</h3>
+      <p>We may collect your name, email address, and project details when you contact us or use our services.</p>
+
+      <h3>How We Use Your Information</h3>
+      <ul>
+        <li>To respond to your inquiries and provide requested services.</li>
+        <li>To improve our website and offerings.</li>
+        <li>To personalize your experience.</li>
+      </ul>
+
+      <h3>Your Rights</h3>
+      <p>You have the right to access, update, or request deletion of your personal information at any time.</p>
+
+      <h3>Contact Us</h3>
+      <p>If you have any questions about this Privacy Policy, please contact us at <a href="mailto:michaelajibola070@gmail.com" target="_blank" class="privacy-email" style="color: var(--mint-green);">michaelajibola070@gmail.com</a>.</p>
+    </div>
+  </div>
+  <!-- Privacy Policy Overlay -->
+  <div id="privacyOverlay" class="privacy-overlay"></div>
+
+   <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top" onclick="scrollToTop()">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
+
