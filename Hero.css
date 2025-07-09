@@ -941,7 +941,7 @@ h2 {
   border: none;
   background: #f7fff7;
   font-size: 1rem;
-  color: var(--midnight-blue);
+  color: black;
   transition: box-shadow 0.3s, transform 0.3s;
 }
 
