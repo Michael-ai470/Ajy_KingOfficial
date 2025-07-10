@@ -2456,3 +2456,19 @@ body.light-mode .gradient-text {
 }
 
 
+.whatsapp-btn button {
+  background-color: #25D366;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin-top: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-btn button:hover {
+  background-color: #1ebe5d;
+}
