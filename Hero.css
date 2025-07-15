@@ -2472,3 +2472,94 @@ body.light-mode .gradient-text {
 .whatsapp-btn button:hover {
   background-color: #1ebe5d;
 }
+
+
+body.light-mode .photo-video-section {
+  background-color: #f9f9f9;
+}
+body.light-mode .section-heading p {
+  color: #555;
+} 
+body.light-mode .photo-preview-card {
+  background: white;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.07);
+}
+body.light-mode .photo-preview-content p,
+body.light-mode .photo-preview-content .hero-btn:hover {
+  color: #333;
+}
+body.light-mode .photo-preview-content .hero-btn {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+
+.photo-video-section {
+  padding: 80px 20px;
+  background-color: var(--midnight-blue);
+  text-align: center;
+}
+
+.section-heading h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.section-heading p {
+  font-size: 1.1rem;
+  color: var(--light-sand);
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.photo-preview-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background: var(--slate-gray);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.07);
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.photo-preview-card img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+}
+
+.photo-preview-content {
+  max-width: 500px;
+  text-align: left;
+}
+
+.photo-preview-content h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: var(--light-sand);
+}
+
+.photo-preview-content p {
+  font-size: 1rem;
+  color: var(--soft-gray);
+  margin-bottom: 20px;
+}
+
+.photo-preview-content .hero-btn {
+  color: #333;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+}
+
+.photo-preview-content .hero-btn:hover {
+  color: white;
+  transition: background 0.3s ease;
+}
+
+
