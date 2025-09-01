@@ -87,10 +87,42 @@ const projects = [
       caseStudy: {
         challenges: "User-Friendly Interface for Diverse Audiences, Balancing Performance and Visual Appeal, Mobile Responsiveness Across All Devices, Maintaining Brand Consistency",
         solutions: "Developed a clean, intuitive layout that simplified navigation for all users. Optimized images and scripts to ensure fast loading times without compromising visual quality. Implemented responsive design techniques to ensure seamless viewing on mobile, tablet, and desktop devices. Created a cohesive design system that maintained brand identity across all pages.",
-        outcomes: "Increased app downloads by 20%."
+        outcomes: "Increased user's engagement by 20%."
       }
-    }
+    },
+    {
+      title: "Beyond Code 101 signup",
+      date: "2025-07-25",
+      category: "E-book + Landing Page + Marketing",
+      description: "Responsive, user-friendly signup page for Beyond Code 101 to streamline registrations and boost launch engagement.",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      images: ["images/img1 (2).png"],
+      liveDemo: "https://beyond-code-101-signup.vercel.app/",
+      github: "https://github.com/Michael-ai470/BYC-101-signup",
+      caseStudy: {
+        challenges: "When building the signup page for Beyond Code 101, one of the main challenges was balancing a clean user experience with proper form validation. The page needed to look professional and align with the eBook’s branding while still being lightweight and responsive across devices. Another challenge was handling form data efficiently so users could sign up without unnecessary friction. Ensuring the page loaded quickly, displayed correctly across browsers, and integrated smoothly into the overall launch flow also required careful attention.",
+        solutions: "To solve these issues, I designed a minimal and responsive interface using HTML5, CSS3, and JavaScript, keeping the layout consistent with the Beyond Code 101 branding. Form validation was implemented with JavaScript to ensure inputs like email addresses were correct before submission, improving both data accuracy and user trust. I optimized the structure and styling for fast load times and tested the page on multiple screen sizes to guarantee a smooth mobile and desktop experience. To make the signup flow more reliable, I kept the form lightweight and avoided unnecessary scripts that could slow down performance.",
+        outcomes: "The final signup page was sleek, functional, and user-friendly. It allowed readers to quickly and easily register their interest in Beyond Code 101, which helped build anticipation ahead of the launch. The responsive design ensured accessibility on both desktop and mobile devices, while the validation added professionalism and trust. Overall, the project delivered a simple but effective entry point into the eBook’s launch strategy, showing a strong balance of design, functionality, and performance."
+      }
+    },
+    {
+      title: "User Data Generator",
+      date: "2025-08-15",
+      category: "Data Tool + Data Storage",
+      description: "A tool for generating and managing user data efficiently.",
+      technologies: ["HTML", "CSS", "JavaScript", "Python"],
+      images: ["images/user data generator.png"],
+      liveDemo: "https://ajy-pdf-generator.onrender.com/",
+      github: "https://github.com/Michael-ai470/pdf-generator",
+      caseStudy: {
+        challenges: "Building the data generator website that exported results into a PDF came with a few interesting challenges. One of the first was handling the structure of the generated data. It wasn’t enough to just output random characters — the data needed to feel realistic, with proper formats for names, emails, phone numbers, and dates. Another big challenge was the PDF export feature. Converting dynamic JavaScript-generated tables into a clean, professional-looking PDF required more than just printing the page; the data had to be well-formatted and consistent. Performance also became an issue when large datasets were generated, as this could slow down the browser. At the same time, the interface had to remain simple and intuitive so that users wouldn’t feel overwhelmed. Finally, making sure the PDF export worked seamlessly across different browsers meant a lot of testing and tweaking.",
+        solutions: "To address these issues, I implemented structured data models with dedicated JavaScript functions for each type of random data, which ensured consistency and realism. For the export feature, I integrated the jsPDF library along with the autoTable plugin, which provided a reliable way to generate and format tables directly inside the PDF. Performance concerns were tackled by optimizing loops, minimizing DOM updates, and setting reasonable limits on the number of records generated in a single run. On the design side, I built a clean, minimal UI that gave users only the necessary controls: a dropdown to choose the type of data, an input field for quantity, and a single “Generate & Export” button. Regular testing across Chrome, Firefox, and Edge helped iron out browser-specific issues and ensured consistent performance.",
+        outcomes: "The end result was a functional and efficient data generator tool that could create sample datasets and export them instantly as professional-looking PDFs. The interface was lightweight and easy to use, making the tool accessible even to non-technical users. Performance remained stable even with larger datasets, and the PDF formatting looked polished thanks to the integration of jsPDF and autoTable. Beyond just being a useful tool, the project turned out to be highly scalable, with room to expand into other export formats like CSV or Excel. As a portfolio piece, it highlights my ability to design practical solutions, integrate third-party libraries effectively, and balance technical performance with user experience."
+      }
+    }  
   ];
+
+projects.sort((a, b) => new Date(b.date) - new Date(a.date));
 
 function toggleMenu() {
   const nav = document.querySelector('.nav-links');
